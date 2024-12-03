@@ -30,10 +30,10 @@
   cv-group: 2
 
 - id: home
-  description: "weiranyao.com"
+  description: "weirayao.github.io"
   color: "#515151"
   class: "fas fa-home icon"
-  url: "https://weiranyao.com"
+  url: "https://weirayao.github.io"
   on-homepage: false
   cv-group: 1
 
