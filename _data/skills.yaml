@@ -1,0 +1,19 @@
+- name: Programming Language
+  items:
+    - Python
+    - JavaScript
+    - HTML
+    - CSS
+    - Bash
+    - SQL
+
+- name: Tools and Frameworks
+  items: 
+    - PyTorch
+    - Triton
+    - Spark
+    - Docker
+    - Kubernetes
+    - Streamlit
+    - FastAPI
+    - LaTex

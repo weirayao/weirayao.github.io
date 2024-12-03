@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-02T20:15:34-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Weiran Yao</title><author><name>Weiran Yao</name><email>weiranyao@outlook.com</email></author><entry><title type="html">SpecTool: A Benchmark for Characterizing Errors in Tool-Use LLMs</title><link href="http://localhost:4000/papers/spectool" rel="alternate" type="text/html" title="SpecTool: A Benchmark for Characterizing Errors in Tool-Use LLMs" /><published>2024-11-01T00:00:00-07:00</published><updated>2024-11-01T00:00:00-07:00</updated><id>http://localhost:4000/papers/spectool</id><content type="html" xml:base="http://localhost:4000/papers/spectool">&lt;p&gt;Evaluating the output of Large Language Models (LLMs) is one of the most critical aspects of building a performant compound AI system. Since the output from LLMs propagate to downstream steps, identifying LLM errors is crucial to system performance. A common task for LLMs in AI systems is tool use. While there are several benchmark environments for evaluating LLMs on this task, they typically only give a success rate without any explanation of the failure cases. To solve this problem, we introduce SpecTool, a new benchmark to identify error patterns in LLM output on tool-use tasks. Our benchmark data set comprises of queries from diverse environments that can be used to test for the presence of seven newly characterized error patterns. Using SPECTOOL , we show that even the most prominent LLMs exhibit these error patterns in their outputs. Researchers can use the analysis and insights from SPECTOOL to guide their error mitigation strategies.&lt;/p&gt;</content><author><name>Shirley Kokane</name></author><summary type="html">Evaluating the output of Large Language Models (LLMs) is one of the most critical aspects of building a performant compound AI system. Since the output from LLMs propagate to downstream steps, identifying LLM errors is crucial to system performance. A common task for LLMs in AI systems is tool use. While there are several benchmark environments for evaluating LLMs on this task, they typically only give a success rate without any explanation of the failure cases. To solve this problem, we introduce SpecTool, a new benchmark to identify error patterns in LLM output on tool-use tasks. Our benchmark data set comprises of queries from diverse environments that can be used to test for the presence of seven newly characterized error patterns. Using SPECTOOL , we show that even the most prominent LLMs exhibit these error patterns in their outputs. Researchers can use the analysis and insights from SPECTOOL to guide their error mitigation strategies.</summary></entry><entry><title type="html">SpecTool: A Benchmark for Characterizing Errors in Tool-Use LLMs</title><link href="http://localhost:4000/papers/spectool" rel="alternate" type="text/html" title="SpecTool: A Benchmark for Characterizing Errors in Tool-Use LLMs" /><published>2024-11-01T00:00:00-07:00</published><updated>2024-11-01T00:00:00-07:00</updated><id>http://localhost:4000/papers/spectool</id><content type="html" xml:base="http://localhost:4000/papers/spectool">&lt;p&gt;Evaluating the output of Large Language Models (LLMs) is one of the most critical aspects of building a performant compound AI system. Since the output from LLMs propagate to downstream steps, identifying LLM errors is crucial to system performance. A common task for LLMs in AI systems is tool use. While there are several benchmark environments for evaluating LLMs on this task, they typically only give a success rate without any explanation of the failure cases. To solve this problem, we introduce SpecTool, a new benchmark to identify error patterns in LLM output on tool-use tasks. Our benchmark data set comprises of queries from diverse environments that can be used to test for the presence of seven newly characterized error patterns. Using SPECTOOL , we show that even the most prominent LLMs exhibit these error patterns in their outputs. Researchers can use the analysis and insights from SPECTOOL to guide their error mitigation strategies.&lt;/p&gt;</content><author><name>Shirley Kokane</name></author><summary type="html">Evaluating the output of Large Language Models (LLMs) is one of the most critical aspects of building a performant compound AI system. Since the output from LLMs propagate to downstream steps, identifying LLM errors is crucial to system performance. A common task for LLMs in AI systems is tool use. While there are several benchmark environments for evaluating LLMs on this task, they typically only give a success rate without any explanation of the failure cases. To solve this problem, we introduce SpecTool, a new benchmark to identify error patterns in LLM output on tool-use tasks. Our benchmark data set comprises of queries from diverse environments that can be used to test for the presence of seven newly characterized error patterns. Using SPECTOOL , we show that even the most prominent LLMs exhibit these error patterns in their outputs. Researchers can use the analysis and insights from SPECTOOL to guide their error mitigation strategies.</summary></entry><entry><title type="html">Language Models are Hidden Reasoners: Unlocking Latent Reasoning Capabilities via Self-Rewarding</title><link href="http://localhost:4000/papers/latro" rel="alternate" type="text/html" title="Language Models are Hidden Reasoners: Unlocking Latent Reasoning Capabilities via Self-Rewarding" /><published>2024-10-01T00:00:00-07:00</published><updated>2024-10-01T00:00:00-07:00</updated><id>http://localhost:4000/papers/latro</id><content type="html" xml:base="http://localhost:4000/papers/latro">&lt;p&gt;Large language models (LLMs) have shown impressive capabilities, but still struggle with complex reasoning tasks requiring multiple steps. While prompt-based methods like Chain-of-Thought (CoT) can improve LLM reasoning at inference time, optimizing reasoning capabilities during training remains challenging. We introduce LaTent Reasoning Optimization (LaTRO), a principled framework that formulates reasoning as sampling from a latent distribution and optimizes it via variational approaches. LaTRO enables LLMs to concurrently improve both their reasoning process and ability to evaluate reasoning quality, without requiring external feedback or reward models. We validate LaTRO through experiments on GSM8K and ARC-Challenge datasets using multiple model architectures. On GSM8K, LaTRO improves zero-shot accuracy by an average of 12.5% over base models and 9.6% over supervised fine-tuning across Phi-3.5-mini, Mistral-7B, and Llama-3.1-8B. Our findings suggest that pre-trained LLMs possess latent reasoning capabilities that can be unlocked and enhanced through our proposed optimization approach in a self-improvement manner.&lt;/p&gt;</content><author><name>Haolin Chen</name></author><summary type="html">Large language models (LLMs) have shown impressive capabilities, but still struggle with complex reasoning tasks requiring multiple steps. While prompt-based methods like Chain-of-Thought (CoT) can improve LLM reasoning at inference time, optimizing reasoning capabilities during training remains challenging. We introduce LaTent Reasoning Optimization (LaTRO), a principled framework that formulates reasoning as sampling from a latent distribution and optimizes it via variational approaches. LaTRO enables LLMs to concurrently improve both their reasoning process and ability to evaluate reasoning quality, without requiring external feedback or reward models. We validate LaTRO through experiments on GSM8K and ARC-Challenge datasets using multiple model architectures. On GSM8K, LaTRO improves zero-shot accuracy by an average of 12.5% over base models and 9.6% over supervised fine-tuning across Phi-3.5-mini, Mistral-7B, and Llama-3.1-8B. Our findings suggest that pre-trained LLMs possess latent reasoning capabilities that can be unlocked and enhanced through our proposed optimization approach in a self-improvement manner.</summary></entry><entry><title type="html">AI for IT Operations</title><link href="http://localhost:4000/blog/aiops" rel="alternate" type="text/html" title="AI for IT Operations" /><published>2024-10-01T00:00:00-07:00</published><updated>2024-10-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/aiops</id><content type="html" xml:base="http://localhost:4000/blog/aiops">&lt;p&gt;Modern cloud applications typically follow a network topology which consists of multiple interconnected services with complex dependencies. The problem of localizing the root cause of failure during a throttle incident is challenging: a fault in a service will be propagated to all its parent services. Therefore, when an outlier is detected at the organization level, multiple metrics could be detected as abnormal at the same time, and it is difficult to find the culprit.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/aiops.jpg&quot; alt=&quot;AIOps.&quot; /&gt;
+  &lt;figcaption&gt;AIOps: from causation to action&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Contributing Factor Analysis approach solves the challenge by incorporating causal discovery (CD) and causal inference (CI) into analysis, which treats the failure as an intervention on the root cause nodes of the causal graph or Baysian network. The algorithm recognizes a minimal set of intervention targets in the graph, such that the data during normal periods can be converted into the data during incident periods, by propagating the intervention through the discovered causal graph.&lt;/p&gt;
+
+&lt;p&gt;We consider the metrics (e.g., dbCPUtime) of each logRecordType or URI pattern as random variables in the graph. We use time-series causal discovery algorithms to:
+Detect a minimal set of nodes in the graph, whose trend or values are significantly changed before and after the anomaly is fired, as the root causes of the org anomaly;
+Quantify the contribution of each root cause by calculating how much the trends or values need to be changed, so that the normal data can be converted into data in incident periods.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;We developed a scalable and efficient causal discovery framework, which is able to handle the large-scale graph and time-series data. The key idea is to decompose the causal attribution problem into a set of smaller subproblems, which can be solved in parallel. We also develop a novel optimization algorithm to further improve the efficiency. Check out our &lt;a href=&quot;https://github.com/Salesforce/causalai&quot;&gt;library&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/papers/23-causalai-arxiv.png&quot; alt=&quot;CausalAI.&quot; /&gt;
+  &lt;figcaption&gt;CausalAI: a scalable and efficient causal discovery framework&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name>Weiran Yao</name><email>weiranyao@outlook.com</email></author><summary type="html">Modern cloud applications typically follow a network topology which consists of multiple interconnected services with complex dependencies. The problem of localizing the root cause of failure during a throttle incident is challenging: a fault in a service will be propagated to all its parent services. Therefore, when an outlier is detected at the organization level, multiple metrics could be detected as abnormal at the same time, and it is difficult to find the culprit. AIOps: from causation to action The Contributing Factor Analysis approach solves the challenge by incorporating causal discovery (CD) and causal inference (CI) into analysis, which treats the failure as an intervention on the root cause nodes of the causal graph or Baysian network. The algorithm recognizes a minimal set of intervention targets in the graph, such that the data during normal periods can be converted into the data during incident periods, by propagating the intervention through the discovered causal graph. We consider the metrics (e.g., dbCPUtime) of each logRecordType or URI pattern as random variables in the graph. We use time-series causal discovery algorithms to: Detect a minimal set of nodes in the graph, whose trend or values are significantly changed before and after the anomaly is fired, as the root causes of the org anomaly; Quantify the contribution of each root cause by calculating how much the trends or values need to be changed, so that the normal data can be converted into data in incident periods. Solution We developed a scalable and efficient causal discovery framework, which is able to handle the large-scale graph and time-series data. The key idea is to decompose the causal attribution problem into a set of smaller subproblems, which can be solved in parallel. We also develop a novel optimization algorithm to further improve the efficiency. Check out our library for more details. CausalAI: a scalable and efficient causal discovery framework</summary></entry><entry><title type="html">Language Models are Hidden Reasoners: Unlocking Latent Reasoning Capabilities via Self-Rewarding</title><link href="http://localhost:4000/papers/latro" rel="alternate" type="text/html" title="Language Models are Hidden Reasoners: Unlocking Latent Reasoning Capabilities via Self-Rewarding" /><published>2024-10-01T00:00:00-07:00</published><updated>2024-10-01T00:00:00-07:00</updated><id>http://localhost:4000/papers/latro</id><content type="html" xml:base="http://localhost:4000/papers/latro">&lt;p&gt;Large language models (LLMs) have shown impressive capabilities, but still struggle with complex reasoning tasks requiring multiple steps. While prompt-based methods like Chain-of-Thought (CoT) can improve LLM reasoning at inference time, optimizing reasoning capabilities during training remains challenging. We introduce LaTent Reasoning Optimization (LaTRO), a principled framework that formulates reasoning as sampling from a latent distribution and optimizes it via variational approaches. LaTRO enables LLMs to concurrently improve both their reasoning process and ability to evaluate reasoning quality, without requiring external feedback or reward models. We validate LaTRO through experiments on GSM8K and ARC-Challenge datasets using multiple model architectures. On GSM8K, LaTRO improves zero-shot accuracy by an average of 12.5% over base models and 9.6% over supervised fine-tuning across Phi-3.5-mini, Mistral-7B, and Llama-3.1-8B. Our findings suggest that pre-trained LLMs possess latent reasoning capabilities that can be unlocked and enhanced through our proposed optimization approach in a self-improvement manner.&lt;/p&gt;</content><author><name>Haolin Chen</name></author><summary type="html">Large language models (LLMs) have shown impressive capabilities, but still struggle with complex reasoning tasks requiring multiple steps. While prompt-based methods like Chain-of-Thought (CoT) can improve LLM reasoning at inference time, optimizing reasoning capabilities during training remains challenging. We introduce LaTent Reasoning Optimization (LaTRO), a principled framework that formulates reasoning as sampling from a latent distribution and optimizes it via variational approaches. LaTRO enables LLMs to concurrently improve both their reasoning process and ability to evaluate reasoning quality, without requiring external feedback or reward models. We validate LaTRO through experiments on GSM8K and ARC-Challenge datasets using multiple model architectures. On GSM8K, LaTRO improves zero-shot accuracy by an average of 12.5% over base models and 9.6% over supervised fine-tuning across Phi-3.5-mini, Mistral-7B, and Llama-3.1-8B. Our findings suggest that pre-trained LLMs possess latent reasoning capabilities that can be unlocked and enhanced through our proposed optimization approach in a self-improvement manner.</summary></entry><entry><title type="html">Scalable Collaboration of Multiple AI Agents in Workspaces</title><link href="http://localhost:4000/blog/slack-agents" rel="alternate" type="text/html" title="Scalable Collaboration of Multiple AI Agents in Workspaces" /><published>2024-10-01T00:00:00-07:00</published><updated>2024-10-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/slack-agents</id><content type="html" xml:base="http://localhost:4000/blog/slack-agents">&lt;p&gt;Ever wondered how to make AI agents actually useful in your daily work? While there’s been lots of buzz around AI automation, most solutions still struggle with a fundamental problem: they don’t fit naturally into how we actually work. That’s where SlackAgents comes in.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/slackagents.png&quot; alt=&quot;SlackAgents.&quot; /&gt;
+  &lt;figcaption&gt;A glimpse into how SlackAgents works&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We present &lt;strong&gt;SlackAgents&lt;/strong&gt;, a &lt;em&gt;multi-agent&lt;/em&gt; library for scalable management and collaboration of AI agents on Slack. As an agentic layer developed upon the Slack platform, the framework offers instant AI integration into organizational workflows, enabling continuous improvement through daily use. It also leverages Slack’s extensive features to enable AI-powered automation of real daily tasks. Furthermore, &lt;strong&gt;SlackAgents&lt;/strong&gt; facilitates scalable collaboration, allowing for effective communication and task orchestration. Our solution bridges existing gaps in AI agent management, offering a robust platform for developing, deploying and managing AI agents for workplace environments.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-makes-slackagents-different&quot;&gt;What Makes SlackAgents Different?&lt;/h2&gt;
+
+&lt;p&gt;Here is a comparison of features supported by SlackAgents library vs existing libraries in terms of  &lt;strong&gt;Multiple Agents&lt;/strong&gt;: multi-agent orchestration; &lt;strong&gt;Workspace Automation&lt;/strong&gt;: native Slack workspace feature support and automation; &lt;strong&gt;Scalable Collaboration&lt;/strong&gt;: support for vast number of agents for collaborative task solving; &lt;strong&gt;Admin Management&lt;/strong&gt;: interfaces for human supervisors to monitor and intervene; &lt;strong&gt;Market Distribution&lt;/strong&gt;: instant deployment and distribution to workspaces via the Slack Marketplace.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Library&lt;/th&gt;
+      &lt;th&gt;Multiple Agents&lt;/th&gt;
+      &lt;th&gt;Workspace Automation&lt;/th&gt;
+      &lt;th&gt;Scalable Collaboration&lt;/th&gt;
+      &lt;th&gt;Admin Management&lt;/th&gt;
+      &lt;th&gt;Market Distribution&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;LangChain&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;LlamaIndex&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AutoGen&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CrewAI&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CAMEL&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;OpenAI Swarm&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SlackAgents&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Our solution is a multi-agent library as an &lt;strong&gt;agentic layer&lt;/strong&gt; leveraging the Slack infrastructure, the most widely used messaging and collaboration platform for corporate workspaces. The marriage of multi-agent framework with Slack can immediately bring the following benefits:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Scalable Collaboration&lt;/strong&gt;: multi-agent communication and task orchestration are handled by various types of conversation sessions across threads and channels of the Slack messaging system.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Slack-Powered Automation&lt;/strong&gt;: interfaces AI agents to various Slack features and visual components, such as &lt;a href=&quot;https://slack.com/features/canvas&quot;&gt;canvas&lt;/a&gt;, &lt;a href=&quot;https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links&quot;&gt;bookmarks&lt;/a&gt;, &lt;a href=&quot;https://slack.com/features/workflow-automation&quot;&gt;workflows&lt;/a&gt;, &lt;a href=&quot;https://slack.com/help/articles/201355156-Configure-your-Slack-notifications&quot;&gt;notifications&lt;/a&gt;, etc., incentivizing developers to build AI agents that can control Slack for automating real daily work and tasks;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Workspace Integration&lt;/strong&gt;: enables developers to use every AI agent in the existing workflows, ensuring immediate deployment and continuous improvement through daily interactions. The agent can be easily distributed to the public and other Slack workspaces;
+&lt;!--more--&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&quot;position: relative; padding-bottom: 38.48631239935588%; height: 0;&quot;&gt;&lt;iframe src=&quot;https://www.loom.com/embed/21f5c21bc22b47eb940221871959e7cd?sid=22ab7b92-bf03-41fd-92e3-e7994851b5cd&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;framework-architecture&quot;&gt;Framework Architecture&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;SlackAgents&lt;/strong&gt; has two core agent types:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Assistant Agent&lt;/strong&gt;: AI agent that can use various tools (custom functions, public APIs, external libraries, code interpreters) in multi-turn conversation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Workflow Agent&lt;/strong&gt;: AI agent with complex multi-stage workflows and manages state and transitions towards sequential goals in multi-turn conversation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/code_interpreter.png&quot; alt=&quot;Code Interpreter Assistant Agent.&quot; style=&quot;width:75%;&quot; /&gt;
+  &lt;figcaption&gt;Code Interpreter Assistant Agent.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Each AI agent, whether an Assistant or Workflow type, operates as a standalone Slack App. To facilitate both user-agent interactions and inter-agent communication, each agent is equipped with specific message listeners, and conversation tools for requesting and providing assistance to one another. This enables multiple agents to collaborate in Slack threads across channels.&lt;/p&gt;
+
+&lt;h3 id=&quot;multi-agent-collaboration&quot;&gt;Multi-agent Collaboration&lt;/h3&gt;
+
+&lt;p&gt;The core of the multi-agent collaboration in &lt;strong&gt;SlackAgents&lt;/strong&gt; is for the current agent to &lt;em&gt;(1) produce&lt;/em&gt; a message that contains a request for assistance with @ mention of the chosen agents or human from a pre-defined colleague list, &lt;em&gt;(2) send&lt;/em&gt; the message to the colleague(s) in a dedicated session, and &lt;em&gt;(3) listen&lt;/em&gt; for colleagues’ responses in the session. Compared with the &lt;strong&gt;handoff&lt;/strong&gt; strategy in &lt;strong&gt;OpenAI swarm&lt;/strong&gt;, which hands off all messages to another agent by swapping system prompt and tools, our collaboration strategy is decentralized, asynchronous, and scalable by leveraging Slack-specific functionalities, and importantly, same as how human workers collaborate in Slack channels by looping in colleagues for help in threads.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/protocol.png&quot; alt=&quot;Multi-agent collaboration protocol.&quot; /&gt;
+  &lt;figcaption&gt;Multi-agent collaboration protocol.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;user-interface&quot;&gt;User Interface&lt;/h3&gt;
+
+&lt;h4 id=&quot;command-line-interface-cli&quot;&gt;Command Line Interface (CLI)&lt;/h4&gt;
+
+&lt;p&gt;The SlackAgents Command-Line Interface (CLI) provides a comprehensive set of commands for managing AI agents within Slack workspaces. This specification details the command structure, available operations, and implementation guidelines.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/cli.png&quot; alt=&quot;SlackAgents CLI.&quot; /&gt;
+  &lt;figcaption&gt;SlackAgents CLI.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;ai-management-dashboard&quot;&gt;AI Management Dashboard&lt;/h4&gt;
+
+&lt;p&gt;The admin dashboard serves as a central hub for managing AI agents, tools, and workflows. It provides real-time visibility into agent performance, task execution, and system status. Key features include user management, tool configuration, and detailed analytics on agent interactions. Admins can monitor agent activity, adjust tool settings, and troubleshoot issues directly from the dashboard.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/dashboard.png&quot; alt=&quot;SlackAgents Dashboard.&quot; /&gt;
+  &lt;figcaption&gt;SlackAgents Dashboard.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;github-repository&quot;&gt;Github Repository&lt;/h4&gt;
+
+&lt;p&gt;The Github repository is the central hub for the development of &lt;strong&gt;SlackAgents&lt;/strong&gt;. It contains the source code for the &lt;strong&gt;SlackAgents&lt;/strong&gt; library, as well as the documentation and examples.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/slackagents_repo.png&quot; alt=&quot;SlackAgents Github Repository.&quot; /&gt;
+  &lt;figcaption&gt;SlackAgents Github Repository.&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name>Weiran Yao</name><email>weiranyao@outlook.com</email></author><summary type="html">Ever wondered how to make AI agents actually useful in your daily work? While there’s been lots of buzz around AI automation, most solutions still struggle with a fundamental problem: they don’t fit naturally into how we actually work. That’s where SlackAgents comes in. A glimpse into how SlackAgents works We present SlackAgents, a multi-agent library for scalable management and collaboration of AI agents on Slack. As an agentic layer developed upon the Slack platform, the framework offers instant AI integration into organizational workflows, enabling continuous improvement through daily use. It also leverages Slack’s extensive features to enable AI-powered automation of real daily tasks. Furthermore, SlackAgents facilitates scalable collaboration, allowing for effective communication and task orchestration. Our solution bridges existing gaps in AI agent management, offering a robust platform for developing, deploying and managing AI agents for workplace environments. What Makes SlackAgents Different? Here is a comparison of features supported by SlackAgents library vs existing libraries in terms of Multiple Agents: multi-agent orchestration; Workspace Automation: native Slack workspace feature support and automation; Scalable Collaboration: support for vast number of agents for collaborative task solving; Admin Management: interfaces for human supervisors to monitor and intervene; Market Distribution: instant deployment and distribution to workspaces via the Slack Marketplace. Library Multiple Agents Workspace Automation Scalable Collaboration Admin Management Market Distribution LangChain ❌ ❌ ❌ ✅ ❌ LlamaIndex ❌ ❌ ❌ ✅ ❌ AutoGen ✅ ❌ ❌ ✅ ❌ CrewAI ✅ ❌ ❌ ✅ ❌ CAMEL ✅ ✅ ✅ ❌ ❌ OpenAI Swarm ✅ ❌ ❌ ❌ ❌ SlackAgents ✅ ✅ ✅ ✅ ✅ Our solution is a multi-agent library as an agentic layer leveraging the Slack infrastructure, the most widely used messaging and collaboration platform for corporate workspaces. The marriage of multi-agent framework with Slack can immediately bring the following benefits: Scalable Collaboration: multi-agent communication and task orchestration are handled by various types of conversation sessions across threads and channels of the Slack messaging system. Slack-Powered Automation: interfaces AI agents to various Slack features and visual components, such as canvas, bookmarks, workflows, notifications, etc., incentivizing developers to build AI agents that can control Slack for automating real daily work and tasks; Workspace Integration: enables developers to use every AI agent in the existing workflows, ensuring immediate deployment and continuous improvement through daily interactions. The agent can be easily distributed to the public and other Slack workspaces;</summary></entry><entry><title type="html">AI for IT Operations</title><link href="http://localhost:4000/blog/aiops" rel="alternate" type="text/html" title="AI for IT Operations" /><published>2024-10-01T00:00:00-07:00</published><updated>2024-10-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/aiops</id><content type="html" xml:base="http://localhost:4000/blog/aiops">&lt;p&gt;Modern cloud applications typically follow a network topology which consists of multiple interconnected services with complex dependencies. The problem of localizing the root cause of failure during a throttle incident is challenging: a fault in a service will be propagated to all its parent services. Therefore, when an outlier is detected at the organization level, multiple metrics could be detected as abnormal at the same time, and it is difficult to find the culprit.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/aiops.jpg&quot; alt=&quot;AIOps.&quot; /&gt;
+  &lt;figcaption&gt;AIOps: from causation to action&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Contributing Factor Analysis approach solves the challenge by incorporating causal discovery (CD) and causal inference (CI) into analysis, which treats the failure as an intervention on the root cause nodes of the causal graph or Baysian network. The algorithm recognizes a minimal set of intervention targets in the graph, such that the data during normal periods can be converted into the data during incident periods, by propagating the intervention through the discovered causal graph.&lt;/p&gt;
+
+&lt;p&gt;We consider the metrics (e.g., dbCPUtime) of each logRecordType or URI pattern as random variables in the graph. We use time-series causal discovery algorithms to:
+Detect a minimal set of nodes in the graph, whose trend or values are significantly changed before and after the anomaly is fired, as the root causes of the org anomaly;
+Quantify the contribution of each root cause by calculating how much the trends or values need to be changed, so that the normal data can be converted into data in incident periods.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;We developed a scalable and efficient causal discovery framework, which is able to handle the large-scale graph and time-series data. The key idea is to decompose the causal attribution problem into a set of smaller subproblems, which can be solved in parallel. We also develop a novel optimization algorithm to further improve the efficiency. Check out our &lt;a href=&quot;https://github.com/Salesforce/causalai&quot;&gt;library&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/papers/23-causalai-arxiv.png&quot; alt=&quot;CausalAI.&quot; /&gt;
+  &lt;figcaption&gt;CausalAI: a scalable and efficient causal discovery framework&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name>Weiran Yao</name><email>weiranyao@outlook.com</email></author><summary type="html">Modern cloud applications typically follow a network topology which consists of multiple interconnected services with complex dependencies. The problem of localizing the root cause of failure during a throttle incident is challenging: a fault in a service will be propagated to all its parent services. Therefore, when an outlier is detected at the organization level, multiple metrics could be detected as abnormal at the same time, and it is difficult to find the culprit. AIOps: from causation to action The Contributing Factor Analysis approach solves the challenge by incorporating causal discovery (CD) and causal inference (CI) into analysis, which treats the failure as an intervention on the root cause nodes of the causal graph or Baysian network. The algorithm recognizes a minimal set of intervention targets in the graph, such that the data during normal periods can be converted into the data during incident periods, by propagating the intervention through the discovered causal graph. We consider the metrics (e.g., dbCPUtime) of each logRecordType or URI pattern as random variables in the graph. We use time-series causal discovery algorithms to: Detect a minimal set of nodes in the graph, whose trend or values are significantly changed before and after the anomaly is fired, as the root causes of the org anomaly; Quantify the contribution of each root cause by calculating how much the trends or values need to be changed, so that the normal data can be converted into data in incident periods. Solution We developed a scalable and efficient causal discovery framework, which is able to handle the large-scale graph and time-series data. The key idea is to decompose the causal attribution problem into a set of smaller subproblems, which can be solved in parallel. We also develop a novel optimization algorithm to further improve the efficiency. Check out our library for more details. CausalAI: a scalable and efficient causal discovery framework</summary></entry><entry><title type="html">Scalable Collaboration of Multiple AI Agents in Workspaces</title><link href="http://localhost:4000/blog/slack-agents" rel="alternate" type="text/html" title="Scalable Collaboration of Multiple AI Agents in Workspaces" /><published>2024-10-01T00:00:00-07:00</published><updated>2024-10-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/slack-agents</id><content type="html" xml:base="http://localhost:4000/blog/slack-agents">&lt;p&gt;Ever wondered how to make AI agents actually useful in your daily work? While there’s been lots of buzz around AI automation, most solutions still struggle with a fundamental problem: they don’t fit naturally into how we actually work. That’s where SlackAgents comes in.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/slackagents.png&quot; alt=&quot;SlackAgents.&quot; /&gt;
+  &lt;figcaption&gt;A glimpse into how SlackAgents works&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We present &lt;strong&gt;SlackAgents&lt;/strong&gt;, a &lt;em&gt;multi-agent&lt;/em&gt; library for scalable management and collaboration of AI agents on Slack. As an agentic layer developed upon the Slack platform, the framework offers instant AI integration into organizational workflows, enabling continuous improvement through daily use. It also leverages Slack’s extensive features to enable AI-powered automation of real daily tasks. Furthermore, &lt;strong&gt;SlackAgents&lt;/strong&gt; facilitates scalable collaboration, allowing for effective communication and task orchestration. Our solution bridges existing gaps in AI agent management, offering a robust platform for developing, deploying and managing AI agents for workplace environments.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-makes-slackagents-different&quot;&gt;What Makes SlackAgents Different?&lt;/h2&gt;
+
+&lt;p&gt;Here is a comparison of features supported by SlackAgents library vs existing libraries in terms of  &lt;strong&gt;Multiple Agents&lt;/strong&gt;: multi-agent orchestration; &lt;strong&gt;Workspace Automation&lt;/strong&gt;: native Slack workspace feature support and automation; &lt;strong&gt;Scalable Collaboration&lt;/strong&gt;: support for vast number of agents for collaborative task solving; &lt;strong&gt;Admin Management&lt;/strong&gt;: interfaces for human supervisors to monitor and intervene; &lt;strong&gt;Market Distribution&lt;/strong&gt;: instant deployment and distribution to workspaces via the Slack Marketplace.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Library&lt;/th&gt;
+      &lt;th&gt;Multiple Agents&lt;/th&gt;
+      &lt;th&gt;Workspace Automation&lt;/th&gt;
+      &lt;th&gt;Scalable Collaboration&lt;/th&gt;
+      &lt;th&gt;Admin Management&lt;/th&gt;
+      &lt;th&gt;Market Distribution&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;LangChain&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;LlamaIndex&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AutoGen&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CrewAI&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CAMEL&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;OpenAI Swarm&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SlackAgents&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Our solution is a multi-agent library as an &lt;strong&gt;agentic layer&lt;/strong&gt; leveraging the Slack infrastructure, the most widely used messaging and collaboration platform for corporate workspaces. The marriage of multi-agent framework with Slack can immediately bring the following benefits:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Scalable Collaboration&lt;/strong&gt;: multi-agent communication and task orchestration are handled by various types of conversation sessions across threads and channels of the Slack messaging system.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Slack-Powered Automation&lt;/strong&gt;: interfaces AI agents to various Slack features and visual components, such as &lt;a href=&quot;https://slack.com/features/canvas&quot;&gt;canvas&lt;/a&gt;, &lt;a href=&quot;https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links&quot;&gt;bookmarks&lt;/a&gt;, &lt;a href=&quot;https://slack.com/features/workflow-automation&quot;&gt;workflows&lt;/a&gt;, &lt;a href=&quot;https://slack.com/help/articles/201355156-Configure-your-Slack-notifications&quot;&gt;notifications&lt;/a&gt;, etc., incentivizing developers to build AI agents that can control Slack for automating real daily work and tasks;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Workspace Integration&lt;/strong&gt;: enables developers to use every AI agent in the existing workflows, ensuring immediate deployment and continuous improvement through daily interactions. The agent can be easily distributed to the public and other Slack workspaces;
+&lt;!--more--&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&quot;position: relative; padding-bottom: 38.48631239935588%; height: 0;&quot;&gt;&lt;iframe src=&quot;https://www.loom.com/embed/21f5c21bc22b47eb940221871959e7cd?sid=22ab7b92-bf03-41fd-92e3-e7994851b5cd&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;framework-architecture&quot;&gt;Framework Architecture&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;SlackAgents&lt;/strong&gt; has two core agent types:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Assistant Agent&lt;/strong&gt;: AI agent that can use various tools (custom functions, public APIs, external libraries, code interpreters) in multi-turn conversation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Workflow Agent&lt;/strong&gt;: AI agent with complex multi-stage workflows and manages state and transitions towards sequential goals in multi-turn conversation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/code_interpreter.png&quot; alt=&quot;Code Interpreter Assistant Agent.&quot; style=&quot;width:75%;&quot; /&gt;
+  &lt;figcaption&gt;Code Interpreter Assistant Agent.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Each AI agent, whether an Assistant or Workflow type, operates as a standalone Slack App. To facilitate both user-agent interactions and inter-agent communication, each agent is equipped with specific message listeners, and conversation tools for requesting and providing assistance to one another. This enables multiple agents to collaborate in Slack threads across channels.&lt;/p&gt;
+
+&lt;h3 id=&quot;multi-agent-collaboration&quot;&gt;Multi-agent Collaboration&lt;/h3&gt;
+
+&lt;p&gt;The core of the multi-agent collaboration in &lt;strong&gt;SlackAgents&lt;/strong&gt; is for the current agent to &lt;em&gt;(1) produce&lt;/em&gt; a message that contains a request for assistance with @ mention of the chosen agents or human from a pre-defined colleague list, &lt;em&gt;(2) send&lt;/em&gt; the message to the colleague(s) in a dedicated session, and &lt;em&gt;(3) listen&lt;/em&gt; for colleagues’ responses in the session. Compared with the &lt;strong&gt;handoff&lt;/strong&gt; strategy in &lt;strong&gt;OpenAI swarm&lt;/strong&gt;, which hands off all messages to another agent by swapping system prompt and tools, our collaboration strategy is decentralized, asynchronous, and scalable by leveraging Slack-specific functionalities, and importantly, same as how human workers collaborate in Slack channels by looping in colleagues for help in threads.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/protocol.png&quot; alt=&quot;Multi-agent collaboration protocol.&quot; /&gt;
+  &lt;figcaption&gt;Multi-agent collaboration protocol.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;user-interface&quot;&gt;User Interface&lt;/h3&gt;
+
+&lt;h4 id=&quot;command-line-interface-cli&quot;&gt;Command Line Interface (CLI)&lt;/h4&gt;
+
+&lt;p&gt;The SlackAgents Command-Line Interface (CLI) provides a comprehensive set of commands for managing AI agents within Slack workspaces. This specification details the command structure, available operations, and implementation guidelines.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/cli.png&quot; alt=&quot;SlackAgents CLI.&quot; /&gt;
+  &lt;figcaption&gt;SlackAgents CLI.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;ai-management-dashboard&quot;&gt;AI Management Dashboard&lt;/h4&gt;
+
+&lt;p&gt;The admin dashboard serves as a central hub for managing AI agents, tools, and workflows. It provides real-time visibility into agent performance, task execution, and system status. Key features include user management, tool configuration, and detailed analytics on agent interactions. Admins can monitor agent activity, adjust tool settings, and troubleshoot issues directly from the dashboard.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/dashboard.png&quot; alt=&quot;SlackAgents Dashboard.&quot; /&gt;
+  &lt;figcaption&gt;SlackAgents Dashboard.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;github-repository&quot;&gt;Github Repository&lt;/h4&gt;
+
+&lt;p&gt;The Github repository is the central hub for the development of &lt;strong&gt;SlackAgents&lt;/strong&gt;. It contains the source code for the &lt;strong&gt;SlackAgents&lt;/strong&gt; library, as well as the documentation and examples.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;single&quot; src=&quot;/images/blog/slackagents_repo.png&quot; alt=&quot;SlackAgents Github Repository.&quot; /&gt;
+  &lt;figcaption&gt;SlackAgents Github Repository.&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name>Weiran Yao</name><email>weiranyao@outlook.com</email></author><summary type="html">Ever wondered how to make AI agents actually useful in your daily work? While there’s been lots of buzz around AI automation, most solutions still struggle with a fundamental problem: they don’t fit naturally into how we actually work. That’s where SlackAgents comes in. A glimpse into how SlackAgents works We present SlackAgents, a multi-agent library for scalable management and collaboration of AI agents on Slack. As an agentic layer developed upon the Slack platform, the framework offers instant AI integration into organizational workflows, enabling continuous improvement through daily use. It also leverages Slack’s extensive features to enable AI-powered automation of real daily tasks. Furthermore, SlackAgents facilitates scalable collaboration, allowing for effective communication and task orchestration. Our solution bridges existing gaps in AI agent management, offering a robust platform for developing, deploying and managing AI agents for workplace environments. What Makes SlackAgents Different? Here is a comparison of features supported by SlackAgents library vs existing libraries in terms of Multiple Agents: multi-agent orchestration; Workspace Automation: native Slack workspace feature support and automation; Scalable Collaboration: support for vast number of agents for collaborative task solving; Admin Management: interfaces for human supervisors to monitor and intervene; Market Distribution: instant deployment and distribution to workspaces via the Slack Marketplace. Library Multiple Agents Workspace Automation Scalable Collaboration Admin Management Market Distribution LangChain ❌ ❌ ❌ ✅ ❌ LlamaIndex ❌ ❌ ❌ ✅ ❌ AutoGen ✅ ❌ ❌ ✅ ❌ CrewAI ✅ ❌ ❌ ✅ ❌ CAMEL ✅ ✅ ✅ ❌ ❌ OpenAI Swarm ✅ ❌ ❌ ❌ ❌ SlackAgents ✅ ✅ ✅ ✅ ✅ Our solution is a multi-agent library as an agentic layer leveraging the Slack infrastructure, the most widely used messaging and collaboration platform for corporate workspaces. The marriage of multi-agent framework with Slack can immediately bring the following benefits: Scalable Collaboration: multi-agent communication and task orchestration are handled by various types of conversation sessions across threads and channels of the Slack messaging system. Slack-Powered Automation: interfaces AI agents to various Slack features and visual components, such as canvas, bookmarks, workflows, notifications, etc., incentivizing developers to build AI agents that can control Slack for automating real daily work and tasks; Workspace Integration: enables developers to use every AI agent in the existing workflows, ensuring immediate deployment and continuous improvement through daily interactions. The agent can be easily distributed to the public and other Slack workspaces;</summary></entry><entry><title type="html">PRAct: Optimizing Principled Reasoning and Acting of LLM Agent</title><link href="http://localhost:4000/papers/pract" rel="alternate" type="text/html" title="PRAct: Optimizing Principled Reasoning and Acting of LLM Agent" /><published>2024-09-02T00:00:00-07:00</published><updated>2024-09-02T00:00:00-07:00</updated><id>http://localhost:4000/papers/pract</id><content type="html" xml:base="http://localhost:4000/papers/pract">&lt;p&gt;We introduce the Principled Reasoning and Acting (PRAct) framework, a novel method for learning and enforcing action principles from trajectory data. Central to our approach is the use of text gradients from a reflection and optimization engine to derive these action principles. To adapt action principles to specific task requirements, we propose a new optimization framework, Reflective Principle Optimization (RPO). After execution, RPO employs a reflector to critique current action principles and an optimizer to update them accordingly. We investigate the RPO framework under two scenarios: Reward-RPO, which uses environmental rewards for reflection, and Self-RPO, which conducts self-reflection without external rewards. Additionally, we developed two RPO methods, RPO-Traj and RPO-Batch, to adapt to different settings. Experimental results across four environments demonstrate that the PRAct agent, leveraging the RPO framework, can effectively learn and apply action principles to enhance performance.&lt;/p&gt;</content><author><name>Zhiwei Liu</name></author><summary type="html">We introduce the Principled Reasoning and Acting (PRAct) framework, a novel method for learning and enforcing action principles from trajectory data. Central to our approach is the use of text gradients from a reflection and optimization engine to derive these action principles. To adapt action principles to specific task requirements, we propose a new optimization framework, Reflective Principle Optimization (RPO). After execution, RPO employs a reflector to critique current action principles and an optimizer to update them accordingly. We investigate the RPO framework under two scenarios: Reward-RPO, which uses environmental rewards for reflection, and Self-RPO, which conducts self-reflection without external rewards. Additionally, we developed two RPO methods, RPO-Traj and RPO-Batch, to adapt to different settings. Experimental results across four environments demonstrate that the PRAct agent, leveraging the RPO framework, can effectively learn and apply action principles to enhance performance.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/featured/pract.png" /><media:content medium="image" url="http://localhost:4000/images/featured/pract.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">PRAct: Optimizing Principled Reasoning and Acting of LLM Agent</title><link href="http://localhost:4000/papers/pract" rel="alternate" type="text/html" title="PRAct: Optimizing Principled Reasoning and Acting of LLM Agent" /><published>2024-09-02T00:00:00-07:00</published><updated>2024-09-02T00:00:00-07:00</updated><id>http://localhost:4000/papers/pract</id><content type="html" xml:base="http://localhost:4000/papers/pract">&lt;p&gt;We introduce the Principled Reasoning and Acting (PRAct) framework, a novel method for learning and enforcing action principles from trajectory data. Central to our approach is the use of text gradients from a reflection and optimization engine to derive these action principles. To adapt action principles to specific task requirements, we propose a new optimization framework, Reflective Principle Optimization (RPO). After execution, RPO employs a reflector to critique current action principles and an optimizer to update them accordingly. We investigate the RPO framework under two scenarios: Reward-RPO, which uses environmental rewards for reflection, and Self-RPO, which conducts self-reflection without external rewards. Additionally, we developed two RPO methods, RPO-Traj and RPO-Batch, to adapt to different settings. Experimental results across four environments demonstrate that the PRAct agent, leveraging the RPO framework, can effectively learn and apply action principles to enhance performance.&lt;/p&gt;</content><author><name>Zhiwei Liu</name></author><summary type="html">We introduce the Principled Reasoning and Acting (PRAct) framework, a novel method for learning and enforcing action principles from trajectory data. Central to our approach is the use of text gradients from a reflection and optimization engine to derive these action principles. To adapt action principles to specific task requirements, we propose a new optimization framework, Reflective Principle Optimization (RPO). After execution, RPO employs a reflector to critique current action principles and an optimizer to update them accordingly. We investigate the RPO framework under two scenarios: Reward-RPO, which uses environmental rewards for reflection, and Self-RPO, which conducts self-reflection without external rewards. Additionally, we developed two RPO methods, RPO-Traj and RPO-Batch, to adapt to different settings. Experimental results across four environments demonstrate that the PRAct agent, leveraging the RPO framework, can effectively learn and apply action principles to enhance performance.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/featured/pract.png" /><media:content medium="image" url="http://localhost:4000/images/featured/pract.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

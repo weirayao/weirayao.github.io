@@ -1,0 +1,36 @@
+- title: "Diversity Empowers Intelligence: Integrating Expertise of Software Engineering Agents"
+  location: "CAMEL-AI Workshop, Cupertino"
+  feature-title: Diversity Empowers Intelligence
+  feature-description: Explore Power of Multi-Agent Reasoning with Software Engineering Agents of Diverse Strengths
+  venue-shorthand: CAMEL-AI Workshop
+  image: /images/featured/camel.png
+  feature-order: 2
+  url: https://www.youtube.com/watch?v=-z22izsRLMM
+  preview: https://salesforce-research-dei-agents.github.io/
+  month: "Sep."
+  year: 2024
+  featured: true
+
+- title: "PRAct: Optimizing Principled Reasoning and Acting of LLM Agent"
+  location: "Databricks Data + AI Summit, San Francisco"
+  month: "Jun."
+  year: 2024
+
+- title: "Retroformer: Retrospective Large Language Agents with Policy Gradient Optimization"
+  location: "Moveworks Workshop, Mountain View"
+  month: "Sep."
+  year: 2023
+
+- title: "Large Actions Models in a Multi-Agent World"
+  description: "Interactively explore advancements in machine learning research at Apple"
+  image: /images/featured/df24.png
+  month: "Sep."
+  year: 2024
+  venue-shorthand: Dreamforce  
+  location: "Dreamforce Breakout Session, San Francisco"
+  feature-title: Large Actions Models in a Multi-Agent World
+  feature-description: Witness How xLAM and Multi-Agent Framework Revolutionize Automation with A Live Demo for Marketing Sales
+  feature-order: 1
+  url: https://www.salesforce.com/plus/experience/dreamforce_2024/series/the_future_of_ai_at_dreamforce_2024/episode/episode-s1e21?t=1667
+  preview: https://x.com/SFResearch/status/1839704381416989005
+  featured: true

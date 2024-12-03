@@ -1,0 +1,39 @@
+title: Weiran Yao
+tagline: Senior Research Scientist & Manager at Salesforce AI Research
+url: http://weirayao.github.io
+baseurl: ""
+# gems: [jekyll-paginate]
+# paginate: 5
+
+# Use of `relative_permalinks` ensures post links from the index work properly.
+# permalink: "/:title"
+# relative_permalinks: true
+
+author:
+  name: Weiran Yao
+  url: http://weirayao.github.io
+  email: weirayao@gmail.com
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+author:
+  name: Weiran Yao
+  url: http://weiranyao.com
+  email: weiranyao@outlook.com
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class: 'syntax'
+
+excerpt_separator: <!--more-->
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from

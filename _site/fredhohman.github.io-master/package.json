@@ -1,0 +1,19 @@
+{
+  "name": "weirayao.github.io",
+  "version": "1.0.0",
+  "description": "Weiran Yao's website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve --livereload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weirayao/weirayao.github.io.git"
+  },
+  "author": "Weiran Yao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weirayao/weirayao.github.io/issues"
+  },
+  "homepage": "https://github.com/weirayao/weirayao.github.io#readme"
+}

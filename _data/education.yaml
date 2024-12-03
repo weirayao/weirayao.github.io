@@ -1,0 +1,19 @@
+- degree: "Ph.D. in Machine Learning"
+  institution: Carnegie Mellon University
+  location: "Pittsburgh, PA"
+  advisor: Kun Zhang
+  years: "Aug 2017 — Aug 2023"
+  committee:
+    - Yuejie Chi
+    - Sean Qian
+    - Matteo Pozzi
+    - Kun Zhang
+  institution-url: https://www.cmu.edu/
+
+- degree: "M.S. in Machine Learning"
+  institution: Carnegie Mellon University
+  location: "Pittsburgh, PA"
+  years: "Aug 2017 — May 2021"
+  institution-url: https://www.ml.cmu.edu/
+  description:
+    - "GPA: 4.00/4.00"

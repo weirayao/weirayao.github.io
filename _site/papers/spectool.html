@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu:300,700" rel="stylesheet">
+
+  <!-- Enable responsiveness on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Share card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@iscreamnearby" />
+  <meta name="twitter:creator" content="@iscreamnearby" />
+  <meta property="og:url" content="https://weirayao.github.io/" />
+  <meta property="og:title" content="Weiran Yao" />
+  <meta property="og:description" content="Weiran Yao is a Research Scientist at Salesforce AI Research." />
+
+  <title>
+    
+    Weiran Yao - SpecTool: A Benchmark for Characterizing Errors in Tool-Use LLMs
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles.css">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png?v=xQdLjRyXLj">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png?v=xQdLjRyXLj">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png?v=xQdLjRyXLj">
+  <link rel="manifest" href="/icons/site.webmanifest?v=xQdLjRyXLj">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg?v=xQdLjRyXLj" color="#313131">
+  <link rel="shortcut icon" href="/icons/favicon.ico?v=xQdLjRyXLj">
+  <meta name="msapplication-TileColor" content="#313131">
+  <meta name="msapplication-config" content="/icons/browserconfig.xml?v=xQdLjRyXLj">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Feed -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Weiran Yao" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMVTT71WC1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-YMVTT71WC1');
+  </script>
+
+</head>
+
+  <body>
+    <header id="masthead">
+	<h1>
+  		<a href="/" title="Home">Weiran Yao</a>
+  		<!-- <div class="mastheadspacer"/></div> -->
+   		<!-- <span class="masthead-slash">/</span> -->
+   		<!-- <small>Senior Research Scientist & Manager at Salesforce AI Research</small> -->
+	</h1>
+	<nav>
+		<a href="http://localhost:4000/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
+		<a href="http://localhost:4000/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
+		<a href="http://localhost:4000/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
+		<!-- <a href="/cv">CV</a>
+		<a href="/projects">Projects</a>
+		<a href="/everything-else">Everything Else</a> -->
+	</nav>
+</header>
+    <main>
+      <div id="paper-title-wrapper" class="l-screen">
+
+	<h1>SpecTool: A Benchmark for Characterizing Errors in Tool-Use LLMs</h1>
+
+	<div id="venue-bar">
+		<div id="venue">arXiv (arXiv), 2024</div>
+		
+		
+		
+		
+		
+	</div>
+
+	<hr class="project-hr">
+
+    <div id="author-wrapper">
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://scholar.google.com/citations?user=2YOBqNcAAAAJ&hl=en"> -->
+        <img src="/images/people/shirley-kokane.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://scholar.google.com/citations?user=2YOBqNcAAAAJ&hl=en">Shirley Kokane</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.linkedin.com/in/mistyzhu/"> -->
+        <img src="/images/people/ming-zhu.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.linkedin.com/in/mistyzhu/">Ming Zhu</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.tulikaawalgaonkar.com/about"> -->
+        <img src="/images/people/tulika-awalgaonkar.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.tulikaawalgaonkar.com/about">Tulika Awalgaonkar</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://jianguoz.github.io/"> -->
+        <img src="/images/people/jianguo-zhang.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://jianguoz.github.io/">Jianguo Zhang</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.linkedin.com/in/quocthai9120/"> -->
+        <img src="/images/people/thai-hoang.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.linkedin.com/in/quocthai9120/">Thai Hoang</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://aksh555.github.io/"> -->
+        <img src="/images/people/akshara-prabhakar.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://aksh555.github.io/">Akshara Prabhakar</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://zuxin.me/"> -->
+        <img src="/images/people/zuxin-liu.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://zuxin.me/">Zuxin Liu</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.linkedin.com/in/tian-lan-770b4b165/"> -->
+        <img src="/images/people/tian-lan.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.linkedin.com/in/tian-lan-770b4b165/">Tian Lan</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://yangliangwei.github.io/"> -->
+        <img src="/images/people/liangwei-yang.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://yangliangwei.github.io/">Liangwei Yang</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.juntaotan.com/"> -->
+        <img src="/images/people/juntao-tan.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.juntaotan.com/">Juntao Tan</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.linkedin.com/in/rithesh-r-n"> -->
+        <img src="/images/people/rithesh-murthy.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.linkedin.com/in/rithesh-r-n">Rithesh Murthy</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://weirayao.com"> -->
+        <img src="/images/people/weiran-yao.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://weirayao.com">Weiran Yao</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://sites.google.com/view/zhiwei-jim"> -->
+        <img src="/images/people/zhiwei-liu.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://sites.google.com/view/zhiwei-jim">Zhiwei Liu</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.niebles.net/"> -->
+        <img src="/images/people/juan-carlos-niebles.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.niebles.net/">Juan Carlos Niebles</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://huan-december.github.io/"> -->
+        <img src="/images/people/huan-wang.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://huan-december.github.io/">Huan Wang</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.shelbyh.ai/"> -->
+        <img src="/images/people/shelby-heinecke.jpeg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.shelbyh.ai/">Shelby Heinecke</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://scholar.google.com/citations?hl=en&user=vaSdahkAAAAJ&view_op=list_works&sortby=pubdate"> -->
+        <img src="/images/people/caiming-xiong.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://scholar.google.com/citations?hl=en&user=vaSdahkAAAAJ&view_op=list_works&sortby=pubdate">Caiming Xiong</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href=""> -->
+        <img src="/images/people/person.png" class="author-image">
+    <!-- </a> -->
+
+
+                
+<span class="cv-author">Silivo Savarese</span>
+            </div>
+        
+    </div>
+
+	
+	<!-- <hr class="project-hr"> -->
+
+	<div id="paper-materials" class="l-text">
+		
+		
+			
+		
+			
+			  <a href="/papers/spectool"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
+			
+		
+			
+		
+			
+			  <a href="https://arxiv.org/pdf/2411.13547"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
+			
+		
+			
+
+				
+
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+		
+	</div>
+
+</div>
+
+
+<h2>Abstract</h2>
+<div><p>Evaluating the output of Large Language Models (LLMs) is one of the most critical aspects of building a performant compound AI system. Since the output from LLMs propagate to downstream steps, identifying LLM errors is crucial to system performance. A common task for LLMs in AI systems is tool use. While there are several benchmark environments for evaluating LLMs on this task, they typically only give a success rate without any explanation of the failure cases. To solve this problem, we introduce SpecTool, a new benchmark to identify error patterns in LLM output on tool-use tasks. Our benchmark data set comprises of queries from diverse environments that can be used to test for the presence of seven newly characterized error patterns. Using SPECTOOL , we show that even the most prominent LLMs exhibit these error patterns in their outputs. Researchers can use the analysis and insights from SPECTOOL to guide their error mitigation strategies.</p>
+</div>
+
+<!-- 
+<figure class="l-text">
+    <img class="single" src="/images/papers/24-spectool-arxiv.png">
+    <figcaption class="single"></figcaption>
+</figure>
+ -->
+<h2>Framework</h2>
+
+<figure class="l-text">
+    <img class="single" src="/images/papers/24-spectool-arxiv.png">
+    <figcaption class="single"></figcaption>
+</figure>
+
+
+<h2>BibTeX</h2>
+
+<div class="highlighter-rouge bibtex bibtex-wrapper">
+	<div class="highlight">
+		<pre>
+			
+@article{kokane2024spectool,
+    title={SpecTool: A Benchmark for Characterizing Errors in Tool-Use LLMs},
+    author={Kokane, Shirley and Zhu, Ming and Awalgaonkar, Tulika and Zhang, Jianguo and Hoang, Thai and Prabhakar, Akshara and Liu, Zuxin and Lan, Tian and Yang, Liangwei and Tan, Juntao and others},
+    journal={arXiv preprint arXiv:2411.13547},
+    year={2024}
+}
+		</pre>
+	</div>
+</div>
+
+
+
+    </main>
+    <footer>
+	<div id="footer-left">
+		<a href="mailto:weirayao@gmail.com"><i class="fa-lg fa fa-envelope footer-icon" aria-hidden="true"></i></a>
+		<a href="http://www.twitter.com/iscreamnearby"><i class="fa-lg fab fa-twitter footer-icon" aria-hidden="true"></i></a>
+		<a href="https://github.com/weirayao"><i class="fa-lg fab fa-github footer-icon" aria-hidden="true"></i></a>
+		<a href="http://www.linkedin.com/in/weiranyao"><i class="fa-lg fab fa-linkedin-in footer-icon" aria-hidden="true"></i></a>
+		<a href="https://scholar.google.com/citations?user=rr_leUAAAAAJ&view_op=list_works&sortby=pubdate&hl=en"><i class="fa-lg fa fa-graduation-cap footer-icon" aria-hidden="true"></i></a>
+		<br>
+		<br>
+		&copy; <time datetime="December 2, 2024">2024</time> Weiran Yao
+	</div>
+	<div id="footer-right">
+		For inquiries, I can be reached at: 
+		<br>
+		weirayao@gmail.com
+
+	</div>
+</footer>
+
+  </body>
+  
+</html>

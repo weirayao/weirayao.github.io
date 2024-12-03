@@ -1,0 +1,29 @@
+- institution: Salesforce
+  location: "Palo Alto, CA"
+  position: Research Manager
+  group: "AI Research"
+  year: "Nov 2024 — Present"
+  description: "Drove cross-functional initiatives for Agentic AI systems for software engineering and multi-agent orchestration, leading teams of 4 scientists/engineers to develop high-quality, diverse data pipeline for code LLMs in production and communicated complex insights for executive decision-making."
+  institution-url: https://www.salesforceairesearch.com/
+  group-url: https://www.salesforceairesearch.com/
+  type: industry
+
+- institution: Salesforce
+  location: "Palo Alto, CA"
+  position: Senior Research Scientist
+  group: "AI Research"
+  year: "Aug 2024 — Present"
+  description: "Developed Multi-Agent AI systems including CodeGenie Agent, SlackAgents, Ensemble Agents, and CRM WebAgent."
+  institution-url: https://www.salesforceairesearch.com/
+  group-url: https://www.salesforceairesearch.com/
+  type: industry
+
+- institution: Salesforce
+  location: "Palo Alto, CA"
+  position: Research Scientist
+  group: "AI Research"
+  year: "Jan 2023 — Aug 2024"
+  description: "Developed post-training of Retroformer, a general critic model for agent self-reflection. For engineering products, I developed automatic root cause analysis algorithms, or SRE/AIOps agent."
+  institution-url: https://www.salesforceairesearch.com/
+  group-url: https://www.salesforceairesearch.com/
+  type: industry

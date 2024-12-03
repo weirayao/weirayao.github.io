@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu:300,700" rel="stylesheet">
+
+  <!-- Enable responsiveness on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Share card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@iscreamnearby" />
+  <meta name="twitter:creator" content="@iscreamnearby" />
+  <meta property="og:url" content="https://weirayao.github.io/" />
+  <meta property="og:title" content="Weiran Yao" />
+  <meta property="og:description" content="Weiran Yao is a Research Scientist at Salesforce AI Research." />
+
+  <title>
+    
+    Weiran Yao - Scalable Collaboration of Multiple AI Agents in Workspaces
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles.css">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png?v=xQdLjRyXLj">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png?v=xQdLjRyXLj">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png?v=xQdLjRyXLj">
+  <link rel="manifest" href="/icons/site.webmanifest?v=xQdLjRyXLj">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg?v=xQdLjRyXLj" color="#313131">
+  <link rel="shortcut icon" href="/icons/favicon.ico?v=xQdLjRyXLj">
+  <meta name="msapplication-TileColor" content="#313131">
+  <meta name="msapplication-config" content="/icons/browserconfig.xml?v=xQdLjRyXLj">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Feed -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Weiran Yao" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMVTT71WC1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-YMVTT71WC1');
+  </script>
+
+</head>
+
+  <body>
+    <header id="masthead">
+	<h1>
+  		<a href="/" title="Home">Weiran Yao</a>
+  		<!-- <div class="mastheadspacer"/></div> -->
+   		<!-- <span class="masthead-slash">/</span> -->
+   		<!-- <small>Senior Research Scientist & Manager at Salesforce AI Research</small> -->
+	</h1>
+	<nav>
+		<a href="http://localhost:4000/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
+		<a href="http://localhost:4000/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
+		<a href="http://localhost:4000/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
+		<!-- <a href="/cv">CV</a>
+		<a href="/projects">Projects</a>
+		<a href="/everything-else">Everything Else</a> -->
+	</nav>
+</header>
+    <main>
+      <!-- <article class="post"> -->
+  <h1 class="post-title">Scalable Collaboration of Multiple AI Agents in Workspaces</h1>
+  <time datetime="October 1, 2024" class="post-date">October 1, 2024</time>
+  <p>Ever wondered how to make AI agents actually useful in your daily work? While there’s been lots of buzz around AI automation, most solutions still struggle with a fundamental problem: they don’t fit naturally into how we actually work. That’s where SlackAgents comes in.</p>
+
+<figure>
+  <img class="single" src="/images/blog/slackagents.png" alt="SlackAgents." />
+  <figcaption>A glimpse into how SlackAgents works</figcaption>
+</figure>
+
+<p>We present <strong>SlackAgents</strong>, a <em>multi-agent</em> library for scalable management and collaboration of AI agents on Slack. As an agentic layer developed upon the Slack platform, the framework offers instant AI integration into organizational workflows, enabling continuous improvement through daily use. It also leverages Slack’s extensive features to enable AI-powered automation of real daily tasks. Furthermore, <strong>SlackAgents</strong> facilitates scalable collaboration, allowing for effective communication and task orchestration. Our solution bridges existing gaps in AI agent management, offering a robust platform for developing, deploying and managing AI agents for workplace environments.</p>
+
+<h2 id="what-makes-slackagents-different">What Makes SlackAgents Different?</h2>
+
+<p>Here is a comparison of features supported by SlackAgents library vs existing libraries in terms of  <strong>Multiple Agents</strong>: multi-agent orchestration; <strong>Workspace Automation</strong>: native Slack workspace feature support and automation; <strong>Scalable Collaboration</strong>: support for vast number of agents for collaborative task solving; <strong>Admin Management</strong>: interfaces for human supervisors to monitor and intervene; <strong>Market Distribution</strong>: instant deployment and distribution to workspaces via the Slack Marketplace.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Multiple Agents</th>
+      <th>Workspace Automation</th>
+      <th>Scalable Collaboration</th>
+      <th>Admin Management</th>
+      <th>Market Distribution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LangChain</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>LlamaIndex</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>AutoGen</td>
+      <td>✅</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>CrewAI</td>
+      <td>✅</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>CAMEL</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>OpenAI Swarm</td>
+      <td>✅</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>SlackAgents</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Our solution is a multi-agent library as an <strong>agentic layer</strong> leveraging the Slack infrastructure, the most widely used messaging and collaboration platform for corporate workspaces. The marriage of multi-agent framework with Slack can immediately bring the following benefits:</p>
+
+<ul>
+  <li><strong>Scalable Collaboration</strong>: multi-agent communication and task orchestration are handled by various types of conversation sessions across threads and channels of the Slack messaging system.</li>
+  <li><strong>Slack-Powered Automation</strong>: interfaces AI agents to various Slack features and visual components, such as <a href="https://slack.com/features/canvas">canvas</a>, <a href="https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links">bookmarks</a>, <a href="https://slack.com/features/workflow-automation">workflows</a>, <a href="https://slack.com/help/articles/201355156-Configure-your-Slack-notifications">notifications</a>, etc., incentivizing developers to build AI agents that can control Slack for automating real daily work and tasks;</li>
+  <li><strong>Workspace Integration</strong>: enables developers to use every AI agent in the existing workflows, ensuring immediate deployment and continuous improvement through daily interactions. The agent can be easily distributed to the public and other Slack workspaces;
+<!--more--></li>
+</ul>
+
+<div style="position: relative; padding-bottom: 38.48631239935588%; height: 0;"><iframe src="https://www.loom.com/embed/21f5c21bc22b47eb940221871959e7cd?sid=22ab7b92-bf03-41fd-92e3-e7994851b5cd" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+<h2 id="framework-architecture">Framework Architecture</h2>
+
+<p><strong>SlackAgents</strong> has two core agent types:</p>
+
+<ul>
+  <li><strong>Assistant Agent</strong>: AI agent that can use various tools (custom functions, public APIs, external libraries, code interpreters) in multi-turn conversation.</li>
+  <li><strong>Workflow Agent</strong>: AI agent with complex multi-stage workflows and manages state and transitions towards sequential goals in multi-turn conversation.</li>
+</ul>
+
+<figure>
+  <img class="single" src="/images/blog/code_interpreter.png" alt="Code Interpreter Assistant Agent." style="width:75%;" />
+  <figcaption>Code Interpreter Assistant Agent.</figcaption>
+</figure>
+<p>Each AI agent, whether an Assistant or Workflow type, operates as a standalone Slack App. To facilitate both user-agent interactions and inter-agent communication, each agent is equipped with specific message listeners, and conversation tools for requesting and providing assistance to one another. This enables multiple agents to collaborate in Slack threads across channels.</p>
+
+<h3 id="multi-agent-collaboration">Multi-agent Collaboration</h3>
+
+<p>The core of the multi-agent collaboration in <strong>SlackAgents</strong> is for the current agent to <em>(1) produce</em> a message that contains a request for assistance with @ mention of the chosen agents or human from a pre-defined colleague list, <em>(2) send</em> the message to the colleague(s) in a dedicated session, and <em>(3) listen</em> for colleagues’ responses in the session. Compared with the <strong>handoff</strong> strategy in <strong>OpenAI swarm</strong>, which hands off all messages to another agent by swapping system prompt and tools, our collaboration strategy is decentralized, asynchronous, and scalable by leveraging Slack-specific functionalities, and importantly, same as how human workers collaborate in Slack channels by looping in colleagues for help in threads.</p>
+
+<figure>
+  <img class="single" src="/images/blog/protocol.png" alt="Multi-agent collaboration protocol." />
+  <figcaption>Multi-agent collaboration protocol.</figcaption>
+</figure>
+
+<h3 id="user-interface">User Interface</h3>
+
+<h4 id="command-line-interface-cli">Command Line Interface (CLI)</h4>
+
+<p>The SlackAgents Command-Line Interface (CLI) provides a comprehensive set of commands for managing AI agents within Slack workspaces. This specification details the command structure, available operations, and implementation guidelines.</p>
+
+<figure>
+  <img class="single" src="/images/blog/cli.png" alt="SlackAgents CLI." />
+  <figcaption>SlackAgents CLI.</figcaption>
+</figure>
+
+<h4 id="ai-management-dashboard">AI Management Dashboard</h4>
+
+<p>The admin dashboard serves as a central hub for managing AI agents, tools, and workflows. It provides real-time visibility into agent performance, task execution, and system status. Key features include user management, tool configuration, and detailed analytics on agent interactions. Admins can monitor agent activity, adjust tool settings, and troubleshoot issues directly from the dashboard.</p>
+
+<figure>
+  <img class="single" src="/images/blog/dashboard.png" alt="SlackAgents Dashboard." />
+  <figcaption>SlackAgents Dashboard.</figcaption>
+</figure>
+
+<h4 id="github-repository">Github Repository</h4>
+
+<p>The Github repository is the central hub for the development of <strong>SlackAgents</strong>. It contains the source code for the <strong>SlackAgents</strong> library, as well as the documentation and examples.</p>
+
+<figure>
+  <img class="single" src="/images/blog/slackagents_repo.png" alt="SlackAgents Github Repository." />
+  <figcaption>SlackAgents Github Repository.</figcaption>
+</figure>
+
+<!-- </article> -->
+
+    </main>
+    <footer>
+	<div id="footer-left">
+		<a href="mailto:weirayao@gmail.com"><i class="fa-lg fa fa-envelope footer-icon" aria-hidden="true"></i></a>
+		<a href="http://www.twitter.com/iscreamnearby"><i class="fa-lg fab fa-twitter footer-icon" aria-hidden="true"></i></a>
+		<a href="https://github.com/weirayao"><i class="fa-lg fab fa-github footer-icon" aria-hidden="true"></i></a>
+		<a href="http://www.linkedin.com/in/weiranyao"><i class="fa-lg fab fa-linkedin-in footer-icon" aria-hidden="true"></i></a>
+		<a href="https://scholar.google.com/citations?user=rr_leUAAAAAJ&view_op=list_works&sortby=pubdate&hl=en"><i class="fa-lg fa fa-graduation-cap footer-icon" aria-hidden="true"></i></a>
+		<br>
+		<br>
+		&copy; <time datetime="December 2, 2024">2024</time> Weiran Yao
+	</div>
+	<div id="footer-right">
+		For inquiries, I can be reached at: 
+		<br>
+		weirayao@gmail.com
+
+	</div>
+</footer>
+
+  </body>
+  
+</html>

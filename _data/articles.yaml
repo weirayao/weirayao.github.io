@@ -1,0 +1,45 @@
+# # feature-parametric-order: 1000 = inf
+
+- title: "SlackAgents"
+  description: "Scalable Collaboration for Multiple AI Agents in Workspaces"
+  image: /images/featured/slack.png
+  year: "Jan 2024 – Present"
+  feature-title: Slack Agents
+  feature-description: Scalable Collaboration for Multiple AI Agents in Workspaces
+  feature-order: 1
+  url: /blog/slack-agents
+  featured: true
+  parametric-issue: false
+  parametric: false
+  feature-parametric-order: 1000
+  apple: true
+
+- title: "CodeGenie"
+  description: "Interactively explore advancements in machine learning research at Apple"
+  image: /images/featured/codegenie.png
+  year: "Aug 2024 – Present"
+  feature-title: CodeGenie Agent
+  feature-description: Enhancing IDE Productivity through AI Code Planning, Editing, and Execution
+  feature-order: 2
+  url: https://engineering.salesforce.com/codegenie-how-salesforce-leveraged-generative-ai-to-enhance-internal-developer-productivity/?utm_source=socialshare&utm_medium=organic_social&utm_campaign=amer_sfjobs_sfteaw&utm_content=graphic&blaid=6592267
+  blog: https://engineering.salesforce.com/codegenie-how-salesforce-leveraged-generative-ai-to-enhance-internal-developer-productivity/?utm_source=socialshare&utm_medium=organic_social&utm_campaign=amer_sfjobs_sfteaw&utm_content=graphic&blaid=6592267
+  featured: true
+  parametric-issue: false
+  parametric: false
+  feature-parametric-order: 1000
+  apple: true
+
+- title: "AIOps"
+  description: "Interactively explore advancements in machine learning research at Apple"
+  image: /images/featured/aiops.png
+  year: "Jan 2023 – Dec 2023"
+  feature-title: AIOps
+  feature-description: AIOps Augments SREs' Capabilities for Automating Operations
+  feature-order: 3
+  url: /blog/aiops
+  blog: https://engineering.salesforce.com/aiops-engineering-secrets-revealed-how-ai-and-automation-slash-thousands-of-manual-hours-annually/
+  featured: true
+  parametric-issue: false
+  parametric: false
+  feature-parametric-order: 1000
+  apple: true
