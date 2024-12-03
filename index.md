@@ -66,7 +66,7 @@ title: Home
 
 <br>
 
-<h2 class="feature-title">Featured <a href="/cv/#interactive-articles">Engineering Projects</a></h2>
+<h2 class="feature-title">Featured <a href="/cv/#engineering-projects">Engineering Projects</a></h2>
 
 <p class="feature-text">
 	Innovative AI systems I've developed and deployed at scale.
@@ -82,7 +82,7 @@ title: Home
 </div>
 
 <br>
-<h2 class="feature-title">Featured <a href="https://parametric.press/about">Talks & Presentations</a></h2>
+<h2 class="feature-title">Featured <a href="/cv/#press">Talks & Presentations</a></h2>
 
 <p class="feature-text">
 	My favorite talks and presentations given at industry AI conferences and workshops.
