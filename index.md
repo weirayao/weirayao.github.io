@@ -39,7 +39,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		For products, I've led delevopment of <span class="cv-vis">AIOps Agent</span> for cloud incident causation analysis, enhancing operational efficiency on Salesforce Availability Cloud. I worked on <span class="cv-vis">function call</span> and <span class="cv-vis">structured output</span> API endpoints of Salesforce xLAM services.
+		For products, I've led delevopment of <a href="/blog/aiops"><span class="cv-vis">AIOps</span></a> for cloud incident causation analysis, enhancing operational efficiency on Salesforce Availability Cloud. I worked on <span class="cv-vis">function call</span> and <span class="cv-vis">structured output</span> API endpoints of Salesforce xLAM services.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
