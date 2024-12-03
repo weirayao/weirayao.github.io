@@ -1,6 +1,7 @@
+
 # # feature-parametric-order: 1000 = inf
 
-- title: "SlackAgents"
+- title: "SlackAgents: Scalable Collaboration of Multiple AI Agents in Workspaces"
   description: "Scalable Collaboration for Multiple AI Agents in Workspaces"
   image: /images/featured/slack.png
   year: "Jan 2024 – Present"
@@ -14,7 +15,7 @@
   feature-parametric-order: 1000
   apple: true
 
-- title: "CodeGenie"
+- title: "CodeGenie Plan and Execute Agent"
   description: "Interactively explore advancements in machine learning research at Apple"
   image: /images/featured/codegenie.png
   year: "Aug 2024 – Present"
@@ -29,7 +30,7 @@
   feature-parametric-order: 1000
   apple: true
 
-- title: "AIOps"
+- title: "AI for IT Operations: Automatic Cloud Incident Causation Analysis"
   description: "Interactively explore advancements in machine learning research at Apple"
   image: /images/featured/aiops.png
   year: "Jan 2023 – Dec 2023"
