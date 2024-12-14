@@ -16,7 +16,7 @@
   apple: true
 
 - title: "CodeGenie Plan and Execute Agent"
-  description: "Interactively explore advancements in machine learning research at Apple"
+  description: "Enhancing IDE Productivity through AI Code Planning, Editing, and Execution"
   image: /images/featured/codegenie.png
   year: "Aug 2024 – Present"
   feature-title: CodeGenie Agent
@@ -31,7 +31,7 @@
   apple: true
 
 - title: "AI for IT Operations: Automatic Cloud Incident Causation Analysis"
-  description: "Interactively explore advancements in machine learning research at Apple"
+  description: "AIOps Augments SREs' Capabilities for Automating Operations"
   image: /images/featured/aiops.png
   year: "Jan 2023 – Dec 2023"
   feature-title: AIOps
