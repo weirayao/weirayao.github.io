@@ -9,7 +9,7 @@ title: Home
 			<img id="intro-image" src="/images/portrait.jpg"></div>
 		<div id="intro-title-text-wrapper">
 			<h1 id="intro-title">Hi, I'm Weiran Yao</h1>
-			<div id="intro-subtitle">I'm a Senior Research Scientist & Manager</div>
+			<div id="intro-subtitle">I'm a Research Scientist & Manager</div>
 			<div id="intro-subtitle">at Salesforce AI Research</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
