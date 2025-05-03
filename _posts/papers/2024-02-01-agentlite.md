@@ -35,7 +35,7 @@ preview: https://raw.githubusercontent.com/SalesforceAIResearch/AgentLite/main/i
 feature-title: Multiple Agents
 feature-description: Salesforce's In-House Library for Multi-Agent Orchestration and Reasoning
 image: /images/featured/agentlite.png
-feature-order: 3
+feature-order: 4
 featured: true
 selected: true
 type: conference
