@@ -33,13 +33,13 @@ selected: false
 type: conference
 bibtex: |-
 
-@article{zhang2025actionstudio,
-  title={ActionStudio: A Lightweight Framework for Data and Training of Large Action Models},
-  author={Zhang, Jianguo and Hoang, Thai and Zhu, Ming and Liu, Zuxin and Wang, Shiyu and Awalgaonkar, Tulika and Prabhakar, Akshara and Chen, Haolin and Yao, Weiran and Liu, Zhiwei and others},
-  journal={arXiv e-prints},
-  pages={arXiv--2503},
-  year={2025}
-}
+    @article{zhang2025actionstudio,
+      title={ActionStudio: A Lightweight Framework for Data and Training of Large Action Models},
+      author={Zhang, Jianguo and Hoang, Thai and Zhu, Ming and Liu, Zuxin and Wang, Shiyu and Awalgaonkar, Tulika and Prabhakar, Akshara and Chen, Haolin and Yao, Weiran and Liu, Zhiwei and others},
+      journal={arXiv e-prints},
+      pages={arXiv--2503},
+      year={2025}
+    }
 
 ---
 
