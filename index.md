@@ -31,7 +31,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I co-founded <img class="intro-logo" style="height: 15px; width: auto; padding-bottom: 2px;" src="/images/actava-icon.svg"> <a href="https://www.actava.ai/"><b>actAVA</b></a> and own its AI organization. We give healthcare enterprises <span class="cv-vis">agentic sovereignty</span> — the ability to build, test, and own their AI agents rather than rent someone else's.
+		I co-founded <img class="intro-logo" style="height: 15px; width: auto; padding-bottom: 2px;" src="/images/actava-icon.svg"> <a href="https://www.actava.ai/"><b>actAVA</b></a> and own its AI organization. actAVA is a <span class="cv-vis">workflow-to-model learning platform</span> for healthcare: we give enterprises <span class="cv-vis">agentic sovereignty</span> — the ability to build, test, and own their AI agents and models.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>

@@ -1,12 +1,12 @@
 
 # # feature-parametric-order: 1000 = inf
 
-- title: "actAVA: Agentic Sovereignty for Healthcare Enterprises"
-  description: "Build, test, and own AI agents for the operational long tail of healthcare — KORA agent harness, CHRYSO governance suite, χ-Bench, and the Cura 1T frontier model"
+- title: "actAVA: A Workflow-to-Model Learning Platform for Healthcare"
+  description: "Build, test, and own AI agents and models for the operational long tail of healthcare — KORA agent harness, CHRYSO governance suite, χ-Bench, and the Cura 1T frontier model"
   image: /images/featured/actava.svg
   year: "2025 – Present"
   feature-title: actAVA
-  feature-description: Enterprise AI sovereignty for healthcare — build, test, learn, own
+  feature-description: Workflow-to-model learning for healthcare — build, test, learn, own
   feature-order: 0
   url: https://www.actava.ai/
   blog: https://www.actava.ai/news

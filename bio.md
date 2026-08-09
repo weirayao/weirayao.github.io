@@ -4,7 +4,7 @@ title: Bio
 permalink: bio/
 ---
 
-Weiran Yao is co-founder and Chief AI Officer of [actAVA](https://www.actava.ai/), an enterprise AI platform for healthcare based in Pleasanton, CA. He can be reached at [this Email](mailto:weirayao@gmail.com)
+Weiran Yao is co-founder and Chief AI Officer of [actAVA](https://www.actava.ai/), a workflow-to-model learning platform for healthcare based in Pleasanton, CA. He can be reached at [this Email](mailto:weirayao@gmail.com)
 
 At actAVA, he owns the AI organization. He leads post-training of Cura 1T, a trillion-parameter healthcare model built on the open-weight Kimi-K2.6 and trained through a human-gated recursive self-improvement loop, in which a training agent finds the model's capability gaps and closes them with SFT, RL, and self-distillation. Cura 1T ranks at or near the top of frontier baselines on five of six healthcare evaluation panels while holding its out-of-domain reasoning ability. He also leads χ-Bench, a benchmark of long-horizon, policy-rich clinical workflows built with a coalition of 20+ health systems and universities, on which the best frontier agent resolves only 28% of tasks.
 
