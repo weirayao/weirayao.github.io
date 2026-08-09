@@ -1,9 +1,19 @@
+- institution: actAVA
+  location: "Pleasanton, CA"
+  position: Co-Founder & Chief AI Officer
+  group: "AI"
+  year: "2025 — Present"
+  description: "Co-founded actAVA to give healthcare enterprises agentic sovereignty — the ability to build, test, and own their AI agents. I own the AI org and lead post-training of Cura 1T, a trillion-parameter healthcare model trained through a human-gated recursive self-improvement loop, which leads five of six healthcare evaluation panels. I also lead χ-Bench, our benchmark for long-horizon, policy-rich clinical workflows, and the model learning layer of KORA, our model-independent agent harness."
+  institution-url: https://www.actava.ai/
+  group-url: https://www.actava.ai/
+  type: industry
+
 - institution: Salesforce
   location: "Palo Alto, CA"
-  position: Research Manager
+  position: Research Manager, Post-Training
   group: "AI Research"
-  year: "Nov 2024 — Present"
-  description: "Drove cross-functional initiatives for Agentic AI systems for software engineering and multi-agent orchestration, leading teams of 4 scientists/engineers to develop high-quality, diverse data pipeline for code LLMs in production and communicated complex insights for executive decision-making."
+  year: "Nov 2024 — 2025"
+  description: "Led the post-training team at Salesforce AI Research, driving cross-functional initiatives for agentic AI and multi-agent orchestration. Shipped the xLAM family of function-calling models and the synthetic data pipelines behind APIGen, APIGen-MT, and AgentOhana, and scaled RL data to pretraining levels with Webscale-RL."
   institution-url: https://www.salesforceairesearch.com/
   group-url: https://www.salesforceairesearch.com/
   type: industry
@@ -12,7 +22,7 @@
   location: "Palo Alto, CA"
   position: Senior Research Scientist
   group: "AI Research"
-  year: "Aug 2024 — Present"
+  year: "Aug 2024 — Nov 2024"
   description: "Developed Multi-Agent AI systems including CodeGenie Agent, SlackAgents, Ensemble Agents, and CRM WebAgent."
   institution-url: https://www.salesforceairesearch.com/
   group-url: https://www.salesforceairesearch.com/

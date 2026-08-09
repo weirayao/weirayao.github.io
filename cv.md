@@ -8,7 +8,7 @@ jsarr:
 
 <h1 id="cv-title"><a href="{{ site.url }}">Weiran Yao</a></h1>
 
-<p id="cv-subtitle"><i>Senior Research Scientist (<span class="cv-vis">Multi-Agent</span> + <span class="cv-ai">Alignment</span>)</i></p>
+<p id="cv-subtitle"><i>Co-Founder & Chief AI Officer, actAVA (<span class="cv-vis">Multi-Agent</span> + <span class="cv-ai">Post-Training</span>)</i></p>
 
 <!-- <div id="cv-toc">
 <ul class="cv-description">
@@ -30,7 +30,7 @@ jsarr:
 </div> -->
 
 <div>
-I design and develop AI systems for <span class="cv-vis">multi-agent reasoning</span>, <span class="cv-vis">software engineering agent</span>, and <span class="cv-vis">web agent</span>. I lead team of 4 scientists to develop high-quality <span class="cv-ai">synthetic data pipeline for SWE agents</span> in production and communicated insights for executive decision-making. I conducted post-training research to align models to specialize in <span class="cv-ai">reflection of task executions</span>. I develop Salesforce in-house xLAM-series agentic model development by aligning the model for <span class="cv-ai">function call</span>.
+I build <span class="cv-vis">multi-agent AI systems</span> and train the <span class="cv-ai">frontier models</span> underneath them. At <a href="https://www.actava.ai/">actAVA</a> I own the AI organization and lead <span class="cv-ai">post-training of Cura 1T</span>, a trillion-parameter healthcare model trained through a human-gated <span class="cv-ai">recursive self-improvement</span> loop, along with <span class="cv-vis">χ-Bench</span>, our benchmark for long-horizon clinical workflows. Previously I led the <span class="cv-ai">post-training team</span> at Salesforce AI Research, shipping the <span class="cv-ai">xLAM</span> function-calling model family, the <span class="cv-ai">synthetic data pipelines</span> behind APIGen and AgentOhana, and agent systems for <span class="cv-vis">software engineering</span> and <span class="cv-vis">the web</span>.
 </div>
 
 <div class="cv-spacer"></div>

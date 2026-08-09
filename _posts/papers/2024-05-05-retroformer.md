@@ -34,7 +34,7 @@ featured: true
 image: /images/featured/retroformer.png
 feature-title: Retroformer
 feature-description: Generative Critic Model Optimized for Self-Reflection and Reasoning Capabilities of AI Agents
-feature-order: 1
+feature-order: 3
 selected: true
 type: conference
 figure: /images/papers/24-retroformer-iclr.png

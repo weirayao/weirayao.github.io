@@ -9,8 +9,8 @@ title: Home
 			<img id="intro-image" src="/images/portrait.jpg"></div>
 		<div id="intro-title-text-wrapper">
 			<h1 id="intro-title">Hi, I'm Weiran Yao</h1>
-			<div id="intro-subtitle">I'm a Research Scientist & Manager</div>
-			<div id="intro-subtitle">at Salesforce AI Research</div>
+			<div id="intro-subtitle">I'm Co-Founder & Chief AI Officer</div>
+			<div id="intro-subtitle">at actAVA</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
 					{% if link.on-homepage == true %}
@@ -27,19 +27,27 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		I develop <span class="cv-vis"><b>multi-agent AI systems</b></span> and train their <span class="cv-ai"><b>language models</b></span>.
+		I build <span class="cv-vis"><b>multi-agent AI systems</b></span> and train the <span class="cv-ai"><b>frontier models</b></span> underneath them.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		At <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/salesforce.svg"> Salesforce, I work on AI agent systems including <a href="/blog/slack-agents"><span class="cv-vis">SlackAgents</span></a>, <a href="/papers/agentlite"><span class="cv-vis">AgentLite</span></a>, <a href="https://engineering.salesforce.com/codegenie-how-salesforce-leveraged-generative-ai-to-enhance-internal-developer-productivity/?utm_source=socialshare&utm_medium=organic_social&utm_campaign=amer_sfjobs_sfteaw&utm_content=graphic&blaid=6592267"><span class="cv-vis">CodeGenie</span></a>, <a href="/papers/dei"><span class="cv-vis">SWE Agents</span></a>, and <a href="https://www.loom.com/share/408133a7a8e14208842afbe1c140727c?sid=fd6d0181-a52b-4acd-82a7-7831bd26dcbe"><span class="cv-vis">WebAgent</span></a>.
+		I co-founded <img class="intro-logo" style="height: 15px; width: auto; padding-bottom: 2px;" src="/images/actava-icon.svg"> <a href="https://www.actava.ai/"><b>actAVA</b></a> and own its AI organization. We give healthcare enterprises <span class="cv-vis">agentic sovereignty</span> — the ability to build, test, and own their AI agents rather than rent someone else's.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		For models, I've led post-training of <a href="/papers/retroformer"><span class="cv-ai">Retroformer</span></a>, a genertive critic model for self-reflection. I've worked on <a href="/papers/xlam"><span class="cv-ai">xLAM</span></a>, a family of state-of-the-art language models for function calling. I conducted research on synthetic data generation pipeline for <a href="/papers/apigen"><span class="cv-ai">APIGen</span></a> and <a href="/papers/agent-ohana"><span class="cv-ai">AgentOhana</span></a>.
+		I lead post-training of <a href="/papers/cura"><span class="cv-ai">Cura 1T</span></a>, our trillion-parameter healthcare model, trained through a <span class="cv-ai">recursive self-improvement</span> loop in which a training agent finds the model's capability gaps and closes them with SFT, RL, and self-distillation. Cura ranks at or near the top of frontier baselines on five of six healthcare evaluation panels while holding its out-of-domain reasoning.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		For products, I've led delevopment of <a href="/blog/aiops"><span class="cv-vis">AIOps</span></a> for cloud incident causation analysis, enhancing operational efficiency on Salesforce Availability Cloud. I worked on <span class="cv-vis">function call</span> and <span class="cv-vis">structured output</span> API endpoints of Salesforce xLAM services.
+		I also lead <a href="/papers/chi-bench"><span class="cv-vis">χ-Bench</span></a>, our benchmark for long-horizon, policy-rich clinical workflows, where the best frontier agent resolves only 28% of tasks. On the platform side I work on <a href="https://www.actava.ai/products"><span class="cv-vis">KORA</span></a>, a model-independent harness for building, testing, and continually improving agents, and <a href="https://www.actava.ai/chryso"><span class="cv-vis">CHRYSO</span></a>, which enforces AI governance against 85+ regulatory controls.
+	</div>
+	<div style="height: 1rem"></div>
+	<div>
+		Previously at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/salesforce.svg"> Salesforce AI Research, I led the <span class="cv-ai">post-training team</span>. We shipped <a href="/papers/xlam"><span class="cv-ai">xLAM</span></a>, a family of state-of-the-art function-calling models, the synthetic data pipelines behind <a href="/papers/apigen"><span class="cv-ai">APIGen</span></a>, <a href="/papers/apigenmt"><span class="cv-ai">APIGen-MT</span></a>, and <a href="/papers/agent-ohana"><span class="cv-ai">AgentOhana</span></a>, and <a href="/papers/retroformer"><span class="cv-ai">Retroformer</span></a>, a generative critic model for self-reflection.
+	</div>
+	<div style="height: 1rem"></div>
+	<div>
+		I also built agent systems there, including <a href="/blog/slack-agents"><span class="cv-vis">SlackAgents</span></a>, <a href="/papers/agentlite"><span class="cv-vis">AgentLite</span></a>, <a href="https://engineering.salesforce.com/codegenie-how-salesforce-leveraged-generative-ai-to-enhance-internal-developer-productivity/?utm_source=socialshare&utm_medium=organic_social&utm_campaign=amer_sfjobs_sfteaw&utm_content=graphic&blaid=6592267"><span class="cv-vis">CodeGenie</span></a>, <a href="/papers/dei"><span class="cv-vis">SWE Agents</span></a>, and <a href="/blog/aiops"><span class="cv-vis">AIOps</span></a> for cloud incident causation analysis.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
